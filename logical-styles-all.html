@@ -1,0 +1,38 @@
+<link rel="import" href="logical-styles-host.html">
+<link rel="import" href="logical-styles-flex.html">
+<link rel="import" href="logical-styles-margin.html">
+<link rel="import" href="logical-styles-misc-classes.html">
+<link rel="import" href="logical-styles-padding.html">
+<link rel="import" href="logical-styles-paper-button.html">
+<dom-module id="logical-styles-all">
+	<style include="logical-styles-host"></style>
+	<style include="logical-styles-flex"></style>
+	<style include="logical-styles-margin"></style>
+	<style include="logical-styles-misc-classes"></style>
+	<style include="logical-styles-padding"></style>
+	<style include="logical-styles-paper-button"></style>
+	<style>
+		/*Custom Element*/
+		:host {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			opacity: 0;
+		}
+
+
+		h6 {
+			font-size: 24px;
+			text-align: left;
+
+		}
+
+		.margin {
+			margin: 15px;
+		}
+
+	</style>
+</dom-module>

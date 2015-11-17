@@ -1,0 +1,26 @@
+{
+  "name": "logical-styles",
+  "homepage": "https://logicdudes.github.io/logical-styles",
+  "authors": [
+    "Kevin Ashcraft <kevin@kevashcraft.com>"
+  ],
+  "description": "common stylesheets wrapped with @polymer",
+  "main": "logical-styles.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "styles",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
